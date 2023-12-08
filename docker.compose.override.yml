@@ -1,8 +1,8 @@
-version: '3.6'
+version: '3.4'
 services:
   netbox:
     ports:
-    - 9595:9595
+    - 9095:9095
     volumes:
     - /volume1/docker/netbox:/etc/netbox/config:z,ro
     - netbox-media-files:/opt/netbox/netbox/media:z,rw
